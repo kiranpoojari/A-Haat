@@ -2,8 +2,6 @@ services:
   - type: web
     name: a-haat-api
     env: python
+    pythonVersion: 3.10
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn agrihat_backend.wsgi:application
-    envVars:
-      - key: DJANGO_SETTINGS_MODULE
-        value: agrihat_backend.settings
