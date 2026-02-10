@@ -17,7 +17,6 @@ MODEL_PATH = os.path.join(
     "arecanut_coconut_leaf_model.h5"
 )
 
-# ⚠️ MUST match training output order EXACTLY
 CLASS_NAMES = [
     "Arecanut_Healthy",
     "Arecanut_Disease",
