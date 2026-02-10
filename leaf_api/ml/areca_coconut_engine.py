@@ -6,9 +6,7 @@ from tensorflow.keras.preprocessing import image
 import os
 from django.conf import settings
 
-# ======================================================
-# CONFIG
-# ======================================================
+#CONFIG
 IMG_SIZE = 128
 
 MODEL_PATH = os.path.join(
