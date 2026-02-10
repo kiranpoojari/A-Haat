@@ -20,7 +20,6 @@ MODEL_PATH = os.path.join(
 
 KNOWN_CROPS = ["Apple", "Corn", "Grape", "Potato", "Tomato"]
 
-# ⚠️ MUST MATCH TRAINING FOLDER ORDER EXACTLY
 CLASS_NAMES = [
     "Apple__Apple_scab",
     "Apple__Black_rot",
