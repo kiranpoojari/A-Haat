@@ -45,7 +45,6 @@ class LeafHealthAPIView(APIView):
             return Response(result, status=status.HTTP_200_OK)
 
         finally:
-            # ✅ Cleanup temp images
             for path in temp_paths:
                 if os.path.exists(path):
                     os.remove(path)
@@ -83,7 +82,6 @@ class ArecaCoconutAPIView(APIView):
             return Response(result, status=status.HTTP_200_OK)
 
         finally:
-            # ✅ Cleanup temp images
             for path in temp_paths:
                 if os.path.exists(path):
                     os.remove(path)
